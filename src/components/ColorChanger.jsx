@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const BgChanger = () => {
+const ColorChange = () => {
   const [textColor, setTextColor] = useState("text-black");
   const [bgColour, setbgColour] = useState("bg-white");
   const [colorHistory, setColorHistory] = useState([]);
@@ -110,4 +110,4 @@ const BgChanger = () => {
   );
 };
 
-export default BgChanger;
+export default ColorChange;
