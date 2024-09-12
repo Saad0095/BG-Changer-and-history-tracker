@@ -7,7 +7,7 @@ const ColorChange = () => {
 
   return (
     <div className="w-full md:w-1/2 mx-auto shadow-xl rounded bg-white p-12 ">
-      <h1 className="text-3xl font-bold text-center p-4">BG CHANGER</h1>
+      <h1 className="text-3xl font-bold text-center p-4">Color Changer</h1>
       <div
         className={`color-preview-container w-full h-60 border-2 border-black rounded flex justify-center items-center ${bgColour} ${textColor}`}
       >
